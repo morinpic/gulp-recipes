@@ -1,15 +1,17 @@
-Angular開発基盤
-===============
+Angular
+=======
 
-ビルドツールのgulpを使用してAngularの開発基盤を作成
+AAngularの開発基盤を作成
 
-## SetUp
+Usage
+-----
+## install
 
 ```
-npm install && bower install
+npm install
 ```
 
-## Task
+## task
 
 ```
 gulp
