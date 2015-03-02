@@ -15,4 +15,4 @@ Development
 ```
 gulp server
 ```
-Automatically generate assets/css/all.css when you touch assets/sass/**/*
+Automatically generate `assets/css/all.css` when you touch `assets/sass/**/*``
