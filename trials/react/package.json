@@ -1,9 +1,22 @@
 {
-  "name": "react",
-  "scripts": {},
+  "name": "gulp-recipes-react",
+  "scripts": {
+    "start": "npm install",
+    "server": "gulp server"
+  },
   "devDependencies": {
     "browser-sync": "^1.5.8",
+    "browserify": "^9.0.3",
     "gulp": "^3.8.8",
-    "gulp-load-plugins": "^0.7.0"
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-util": "^3.0.4",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "rimraf": "^2.3.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.4.0"
   }
 }

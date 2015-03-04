@@ -1,5 +1,10 @@
 /** @jsx React.DOM */
-React.renderComponent(
-  <h1>Hello React!</h1>,
-  document.getElementById('app')
-);
+var React = require('react')
+
+Hello = React.createClass({
+  render: function() {
+    return <h1>Hello {this.props.name}</h1>;
+  }
+});
+
+React.render(<Hello name="JSX" />, document.getElementById("app"));
