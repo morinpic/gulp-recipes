@@ -20,6 +20,7 @@ gulp.task('browserify', function() {
     transform: [reactify]
   });
   return b.bundle()
+    .on('error', $.notify.onError('<%= error.message %>'))
     .pipe(source('bundle.js'))
     .pipe(gulp.dest('.tmp/js'))
     .pipe(reload({stream:true}));
