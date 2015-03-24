@@ -1,0 +1,18 @@
+{
+  "name": "gulp-recipes-babel",
+  "scripts": {
+    "start": "npm install",
+    "server": "gulp server"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browser-sync": "^1.5.8",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.8",
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-notify": "^2.2.0",
+    "rimraf": "^2.3.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
